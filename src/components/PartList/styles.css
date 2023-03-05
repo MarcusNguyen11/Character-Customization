@@ -1,0 +1,80 @@
+.part-list {
+  flex: 1;
+}
+.list {
+  background-color: rgba(255, 166, 0, 0.4);
+  /* border: 5px solid orange; */
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 10px 0;
+  margin-right: 40px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 10px orange;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+.clickable-square {
+  background-color: none;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-content: space-between;
+}
+
+.avatar-body {
+  z-index: -1;
+}
+
+.avatar-eyes {
+  z-index: 1;
+}
+
+.avatar-hair {
+  z-index: 1;
+}
+
+.avatar-mouth {
+  z-index: 1;
+}
+
+.avatar-eyebrows {
+  z-index: 1;
+}
+
+.avatar-earrings {
+  z-index: 2;
+}
+
+.avatar-glasses {
+  z-index: 2;
+}
+
+.avatar-hats {
+  z-index: 2;
+}
+
+.avatar-clothingL1 {
+  z-index: 0;
+}
+
+.avatar-clothingL2 {
+  z-index: 1;
+}
+
+.avatar-clothingL2 {
+  z-index: 2;
+}
+.avatar-neckwear {
+  z-index: 3;
+}
+
+.selected {
+  background-color: rgba(116, 116, 255, 0.315);
+  box-shadow: 0px 0px 10px 5px rgba(116, 116, 255, 0.315);
+}

@@ -1,0 +1,31 @@
+.avatar-group {
+  display: flex;
+  gap: 20px;
+}
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  object-fit: cover;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #0baf94;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 3px 3px #f90;
+}
+.sub-title {
+  display: flex;
+  justify-content: center;
+  color: #f90;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 3px 3px #0baf94;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
