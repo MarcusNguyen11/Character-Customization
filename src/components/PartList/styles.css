@@ -3,7 +3,6 @@
 }
 .list {
   background-color: rgba(255, 166, 0, 0.4);
-  /* border: 5px solid orange; */
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -77,4 +76,84 @@
 .selected {
   background-color: rgba(116, 116, 255, 0.315);
   box-shadow: 0px 0px 10px 5px rgba(116, 116, 255, 0.315);
+}
+
+@media screen and (max-width: 375px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .list {
+    margin-right: 5px;
+    padding: 5px;
+  }
+  .clickable-square {
+    width: 25px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .header {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .list {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .clickable-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
 }
