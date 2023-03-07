@@ -78,15 +78,15 @@
   box-shadow: 0px 0px 10px 5px rgba(116, 116, 255, 0.315);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .list {
     margin-right: 10px;
-    padding: 10px;
+    padding: 5px;
   }
   .clickable-square {
-    width: 35px;
-    height: 35px;
-    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
   }
   .header {
     font-size: 25px;
@@ -94,23 +94,71 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 912px) {
   .list {
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 20px;
+    padding: 15px;
   }
   .clickable-square {
-    width: 35px;
-    height: 35px;
-    border-radius: 7px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
   }
   .header {
-    font-size: 25px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .list {
+    margin-right: 20px;
+    padding: 15px;
+  }
+  .clickable-square {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .header {
+    font-size: 50px;
     font-weight: 700;
   }
 }
 
 @media screen and (max-width: 540px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .list {
     margin-right: 10px;
     padding: 10px;
@@ -138,22 +186,6 @@
   }
   .header {
     font-size: 20px;
-    font-weight: 700;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .list {
-    margin-right: 10px;
-    padding: 5px;
-  }
-  .clickable-square {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-  }
-  .header {
-    font-size: 25px;
     font-weight: 700;
   }
 }

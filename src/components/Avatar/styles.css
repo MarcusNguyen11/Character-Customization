@@ -41,59 +41,140 @@
   height: 300px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .avatar-container {
-    padding-top: 60px;
+    padding-top: 50px;
   }
   .avatar {
-    width: 160px;
-    height: 250px;
+    width: 240px;
+    height: 320px;
   }
   .image-container {
     width: 100%;
-    height: 200px;
+    height: 280px;
   }
   .image-style {
     position: absolute;
     width: 100%;
-    height: 200px;
+    height: 280px;
   }
   .btn-random {
-    margin-left: 30px;
-    margin-top: 8px;
-    width: 100px;
+    margin-left: 45px;
+    margin-top: 6px;
+    width: 140px;
     font-weight: 700;
-    padding: 10px;
+    padding: 5px;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 912px) {
   .avatar-container {
-    padding-top: 60px;
+    padding-top: 120px;
   }
   .avatar {
-    width: 160px;
-    height: 250px;
+    width: 280px;
+    height: 380px;
   }
   .image-container {
     width: 100%;
-    height: 200px;
+    height: 320px;
   }
   .image-style {
     position: absolute;
     width: 100%;
-    height: 200px;
+    height: 320px;
   }
   .btn-random {
-    margin-left: 30px;
-    margin-top: 8px;
-    width: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .avatar-container {
+    padding-top: 120px;
+  }
+  .avatar {
+    width: 280px;
+    height: 360px;
+  }
+  .image-container {
+    width: 100%;
+    height: 300px;
+  }
+  .image-style {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+  }
+  .btn-random {
+    margin-left: 65px;
+    margin-top: 10px;
+    width: 170px;
+    font-size: 20px;
     font-weight: 700;
     padding: 10px;
   }
 }
 
 @media screen and (max-width: 540px) {
+  .avatar-container {
+    padding-top: 60px;
+  }
+  .avatar {
+    width: 160px;
+    height: 250px;
+  }
+  .image-container {
+    width: 100%;
+    height: 200px;
+  }
+  .image-style {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+  }
+  .btn-random {
+    margin-left: 30px;
+    margin-top: 8px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .avatar-container {
+    padding-top: 60px;
+  }
+  .avatar {
+    width: 160px;
+    height: 250px;
+  }
+  .image-container {
+    width: 100%;
+    height: 200px;
+  }
+  .image-style {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+  }
+  .btn-random {
+    margin-left: 30px;
+    margin-top: 8px;
+    width: 100px;
+    font-weight: 700;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .avatar-container {
     padding-top: 60px;
   }
@@ -140,32 +221,6 @@
     margin-left: 10px;
     margin-top: 6px;
     width: 100px;
-    font-weight: 700;
-    padding: 5px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .avatar-container {
-    padding-top: 50px;
-  }
-  .avatar {
-    width: 240px;
-    height: 320px;
-  }
-  .image-container {
-    width: 100%;
-    height: 280px;
-  }
-  .image-style {
-    position: absolute;
-    width: 100%;
-    height: 280px;
-  }
-  .btn-random {
-    margin-left: 45px;
-    margin-top: 6px;
-    width: 140px;
     font-weight: 700;
     padding: 5px;
   }
