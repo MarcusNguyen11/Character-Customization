@@ -1,5 +1,5 @@
 .avatar-container {
-  padding-top: 80px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   flex: 1;
@@ -42,9 +42,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .avatar-container {
-    padding-top: 50px;
-  }
   .avatar {
     width: 240px;
     height: 320px;
@@ -68,9 +65,6 @@
 }
 
 @media screen and (max-width: 912px) {
-  .avatar-container {
-    padding-top: 120px;
-  }
   .avatar {
     width: 280px;
     height: 380px;
@@ -95,9 +89,6 @@
 }
 
 @media screen and (max-width: 840px) {
-  .avatar-container {
-    padding-top: 120px;
-  }
   .avatar {
     width: 280px;
     height: 360px;
@@ -122,9 +113,6 @@
 }
 
 @media screen and (max-width: 540px) {
-  .avatar-container {
-    padding-top: 60px;
-  }
   .avatar {
     width: 160px;
     height: 250px;
@@ -149,9 +137,6 @@
 }
 
 @media screen and (max-width: 412px) {
-  .avatar-container {
-    padding-top: 60px;
-  }
   .avatar {
     width: 160px;
     height: 250px;
@@ -175,9 +160,6 @@
 }
 
 @media screen and (max-width: 375px) {
-  .avatar-container {
-    padding-top: 60px;
-  }
   .avatar {
     width: 160px;
     height: 250px;
@@ -201,9 +183,6 @@
 }
 
 @media screen and (max-width: 280px) {
-  .avatar-container {
-    padding-top: 50px;
-  }
   .avatar {
     width: 120px;
     height: 240px;
