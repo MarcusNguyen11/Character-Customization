@@ -116,12 +116,12 @@
     padding: 15px;
   }
   .clickable-square {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
   }
   .header {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
   }
 }
