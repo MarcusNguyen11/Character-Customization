@@ -158,6 +158,22 @@
   }
 }
 
+@media screen and (max-width: 540px) {
+  .list {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .clickable-square {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+  }
+  .header {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
 @media screen and (max-width: 412px) {
   .list {
     margin-right: 10px;

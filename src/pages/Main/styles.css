@@ -76,6 +76,17 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 25px;
+    font-weight: 100;
+  }
+  .sub-title {
+    font-size: 14px;
+    font-weight: 100;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .title {
     font-size: 25px;
